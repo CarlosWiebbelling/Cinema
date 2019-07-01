@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="620.0" prefWidth="640.0" stylesheets="@../Style.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cinema.LoginController">
+    <children>
+      <Pane layoutX="163.0" layoutY="71.0" prefHeight="401.0" prefWidth="315.0" style="-fx-background-color: white; -fx-border-width: 0.2px; -fx-border-color: black; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 2, 0, 0, 0);;">
+         <children>
+            <Button layoutX="74.0" layoutY="299.0" mnemonicParsing="false" onAction="#login" prefHeight="32.0" prefWidth="168.0" text="LOGIN">
+               <styleClass>
+                  <String fx:value="bg-info-op7" />
+                  <String fx:value="rounded-0" />
+               </styleClass>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <TextField layoutX="74.0" layoutY="143.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="26.0" prefWidth="168.0" promptText="USUÁRIO" styleClass="border-bottom">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
+            <PasswordField layoutX="74.0" layoutY="188.0" prefHeight="26.0" prefWidth="168.0" promptText="SENHA" styleClass="border-bottom">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></PasswordField>
+            <Button layoutX="93.0" layoutY="35.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="97.0" style="-fx-background-color: none;">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor></Button>
+            <MenuButton layoutX="74.0" layoutY="240.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="168.0" styleClass="border-bottom" text="Escolha a sala" textFill="#000000a6">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Sala 1" />
+                <MenuItem mnemonicParsing="false" text="Sala 2" />
+                  <MenuItem mnemonicParsing="false" text="Sala 3" />
+              </items>
+            </MenuButton>
+            <ImageView fitHeight="75.0" fitWidth="73.0" layoutX="122.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/dGo8DOk.jpg.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane fx:id="centerPaneLogin" disable="true" prefHeight="620.0" prefWidth="640.0" />
+   </children>
+</AnchorPane>

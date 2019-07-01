@@ -1,0 +1,610 @@
+/*
+**  All palettes here are made based by the following sites:
+**  https://lospec.com/palette-list
+**  https://mdbootstrap.com/css/colors/
+**  https://getbootstrap.com/docs/4.0/utilities/colors/
+**  https://www.hexrgba.com/
+*/
+
+*{
+
+    /*
+    **  USER DEFINED COLORS
+    */
+
+    -transparent:                      rgba(   0,   0,   0, 0.0);
+    -text-white:                       rgba( 200, 200, 200, 1.0);
+    -text-whitesmoke:                  rgba( 170, 170, 170, 1.0);
+    -text-black:                       rgba(  17,  17,  17, 1.0);
+    -op7-black:                        rgba(   0,   0,   0, 0.7);
+    -op5-black:                        rgba(   0,   0,   0, 0.5);
+    -op3-black:                        rgba(   0,   0,   0, 0.3);
+    -op2-black:                        rgba(   0,   0,   0, 0.2);
+    -op1h-black:                       rgba(   0,   0,   0, .15);
+    -op1-black:                        rgba(   0,   0,   0, 0.1);
+    -oph-black:                        rgba(   0,   0,   0, .05);
+    -op7-white:                        rgba(   1,   1,   1, 0.7);
+    -op5-white:                        rgba(   1,   1,   1, 0.5);
+    -op3-white:                        rgba(   1,   1,   1, 0.3);
+
+    /*
+    **  VINE 2D PALETTE
+    */
+
+    -color-v2d-dark:                   rgba(  21,  10,  31, 1.0);
+    -color-v2d-light:                  rgba( 255, 253, 240, 1.0);
+    -color-v2d-red-0:                  rgba(  40,  11,  38, 1.0);
+    -color-v2d-red-1:                  rgba(  54,  16,  39, 1.0);
+    -color-v2d-red-2:                  rgba( 104,  24,  36, 1.0);
+    -color-v2d-red-3:                  rgba( 180,  35,  19, 1.0);
+    -color-v2d-red-4:                  rgba( 244, 104,  11, 1.0);
+    -color-v2d-red-5:                  rgba( 244, 192,  71, 1.0);
+    -color-v2d-green-0:                rgba(  12,  19,  39, 1.0);
+    -color-v2d-green-1:                rgba(   3,  40,  43, 1.0);
+    -color-v2d-green-2:                rgba(   9,  73,  63, 1.0);
+    -color-v2d-green-3:                rgba(  17, 131,  55, 1.0);
+    -color-v2d-green-4:                rgba(  87, 197,  43, 1.0);
+    -color-v2d-green-5:                rgba( 185, 237,  94, 1.0);
+    -color-v2d-purple-0:               rgba(  26,  17,  46, 1.0);
+    -color-v2d-purple-1:               rgba(  41,  25,  69, 1.0);
+    -color-v2d-purple-2:               rgba(  94,  28,  90, 1.0);
+    -color-v2d-purple-3:               rgba( 143,  23, 103, 1.0);
+    -color-v2d-purple-4:               rgba( 244,  93, 146, 1.0);
+    -color-v2d-purple-5:               rgba( 254, 181, 139, 1.0);
+    -color-v2d-blue-0:                 rgba(  14,   9,  47, 1.0);
+    -color-v2d-blue-1:                 rgba(  27,  24,  83, 1.0);
+    -color-v2d-blue-2:                 rgba(  34,  45, 129, 1.0);
+    -color-v2d-blue-3:                 rgba(  70,  91, 231, 1.0);
+    -color-v2d-blue-4:                 rgba(  42, 192, 242, 1.0);
+    -color-v2d-blue-5:                 rgba( 125, 242, 207, 1.0);
+    -color-v2d-brown-0:                rgba(  34,  12,  39, 1.0);
+    -color-v2d-brown-1:                rgba(  47,  19,  22, 1.0);
+    -color-v2d-brown-2:                rgba(  67,  30,  30, 1.0);
+    -color-v2d-brown-3:                rgba( 116,  52,  26, 1.0);
+    -color-v2d-brown-4:                rgba( 175,  93,  35, 1.0);
+    -color-v2d-brown-5:                rgba( 248, 153,  58, 1.0);
+    -color-v2d-teal-0:                 rgba(  25,  16,  46, 1.0);
+    -color-v2d-teal-1:                 rgba(  36,  30,  68, 1.0);
+    -color-v2d-teal-2:                 rgba(  37,  49,  94, 1.0);
+    -color-v2d-teal-3:                 rgba(  58,  92, 133, 1.0);
+    -color-v2d-teal-4:                 rgba(  86, 161, 191, 1.0);
+    -color-v2d-teal-5:                 rgba( 151, 219, 210, 1.0);
+
+    -op7-color-v2d-dark:               rgba(  21,  10,  31, 0.7);
+    -op7-color-v2d-light:              rgba( 255, 253, 240, 0.7);
+    -op7-color-v2d-red-0:              rgba(  40,  11,  38, 0.7);
+    -op7-color-v2d-red-1:              rgba(  54,  16,  39, 0.7);
+    -op7-color-v2d-red-2:              rgba( 104,  24,  36, 0.7);
+    -op7-color-v2d-red-3:              rgba( 180,  35,  19, 0.7);
+    -op7-color-v2d-red-4:              rgba( 244, 104,  11, 0.7);
+    -op7-color-v2d-red-5:              rgba( 244, 192,  71, 0.7);
+    -op7-color-v2d-green-0:            rgba(  12,  19,  39, 0.7);
+    -op7-color-v2d-green-1:            rgba(   3,  40,  43, 0.7);
+    -op7-color-v2d-green-2:            rgba(   9,  73,  63, 0.7);
+    -op7-color-v2d-green-3:            rgba(  17, 131,  55, 0.7);
+    -op7-color-v2d-green-4:            rgba(  87, 197,  43, 0.7);
+    -op7-color-v2d-green-5:            rgba( 185, 237,  94, 0.7);
+    -op7-color-v2d-purple-0:           rgba(  26,  17,  46, 0.7);
+    -op7-color-v2d-purple-1:           rgba(  41,  25,  69, 0.7);
+    -op7-color-v2d-purple-2:           rgba(  94,  28,  90, 0.7);
+    -op7-color-v2d-purple-3:           rgba( 143,  23, 103, 0.7);
+    -op7-color-v2d-purple-4:           rgba( 244,  93, 146, 0.7);
+    -op7-color-v2d-purple-5:           rgba( 254, 181, 139, 0.7);
+    -op7-color-v2d-blue-0:             rgba(  14,   9,  47, 0.7);
+    -op7-color-v2d-blue-1:             rgba(  27,  24,  83, 0.7);
+    -op7-color-v2d-blue-2:             rgba(  34,  45, 129, 0.7);
+    -op7-color-v2d-blue-3:             rgba(  70,  91, 231, 0.7);
+    -op7-color-v2d-blue-4:             rgba(  42, 192, 242, 0.7);
+    -op7-color-v2d-blue-5:             rgba( 125, 242, 207, 0.7);
+    -op7-color-v2d-brown-0:            rgba(  34,  12,  39, 0.7);
+    -op7-color-v2d-brown-1:            rgba(  47,  19,  22, 0.7);
+    -op7-color-v2d-brown-2:            rgba(  67,  30,  30, 0.7);
+    -op7-color-v2d-brown-3:            rgba( 116,  52,  26, 0.7);
+    -op7-color-v2d-brown-4:            rgba( 175,  93,  35, 0.7);
+    -op7-color-v2d-brown-5:            rgba( 248, 153,  58, 0.7);
+    -op7-color-v2d-teal-0:             rgba(  25,  16,  46, 0.7);
+    -op7-color-v2d-teal-1:             rgba(  36,  30,  68, 0.7);
+    -op7-color-v2d-teal-2:             rgba(  37,  49,  94, 0.7);
+    -op7-color-v2d-teal-3:             rgba(  58,  92, 133, 0.7);
+    -op7-color-v2d-teal-4:             rgba(  86, 161, 191, 0.7);
+    -op7-color-v2d-teal-5:             rgba( 151, 219, 210, 0.7);
+
+    -op5-color-v2d-dark:               rgba(  21,  10,  31, 0.5);
+    -op5-color-v2d-light:              rgba( 255, 253, 240, 0.5);
+    -op5-color-v2d-red-0:              rgba(  40,  11,  38, 0.5);
+    -op5-color-v2d-red-1:              rgba(  54,  16,  39, 0.5);
+    -op5-color-v2d-red-2:              rgba( 104,  24,  36, 0.5);
+    -op5-color-v2d-red-3:              rgba( 180,  35,  19, 0.5);
+    -op5-color-v2d-red-4:              rgba( 244, 104,  11, 0.5);
+    -op5-color-v2d-red-5:              rgba( 244, 192,  71, 0.5);
+    -op5-color-v2d-green-0:            rgba(  12,  19,  39, 0.5);
+    -op5-color-v2d-green-1:            rgba(   3,  40,  43, 0.5);
+    -op5-color-v2d-green-2:            rgba(   9,  73,  63, 0.5);
+    -op5-color-v2d-green-3:            rgba(  17, 131,  55, 0.5);
+    -op5-color-v2d-green-4:            rgba(  87, 197,  43, 0.5);
+    -op5-color-v2d-green-5:            rgba( 185, 237,  94, 0.5);
+    -op5-color-v2d-purple-0:           rgba(  26,  17,  46, 0.5);
+    -op5-color-v2d-purple-1:           rgba(  41,  25,  69, 0.5);
+    -op5-color-v2d-purple-2:           rgba(  94,  28,  90, 0.5);
+    -op5-color-v2d-purple-3:           rgba( 143,  23, 103, 0.5);
+    -op5-color-v2d-purple-4:           rgba( 244,  93, 146, 0.5);
+    -op5-color-v2d-purple-5:           rgba( 254, 181, 139, 0.5);
+    -op5-color-v2d-blue-0:             rgba(  14,   9,  47, 0.5);
+    -op5-color-v2d-blue-1:             rgba(  27,  24,  83, 0.5);
+    -op5-color-v2d-blue-2:             rgba(  34,  45, 129, 0.5);
+    -op5-color-v2d-blue-3:             rgba(  70,  91, 231, 0.5);
+    -op5-color-v2d-blue-4:             rgba(  42, 192, 242, 0.5);
+    -op5-color-v2d-blue-5:             rgba( 125, 242, 207, 0.5);
+    -op5-color-v2d-brown-0:            rgba(  34,  12,  39, 0.5);
+    -op5-color-v2d-brown-1:            rgba(  47,  19,  22, 0.5);
+    -op5-color-v2d-brown-2:            rgba(  67,  30,  30, 0.5);
+    -op5-color-v2d-brown-3:            rgba( 116,  52,  26, 0.5);
+    -op5-color-v2d-brown-4:            rgba( 175,  93,  35, 0.5);
+    -op5-color-v2d-brown-5:            rgba( 248, 153,  58, 0.5);
+    -op5-color-v2d-teal-0:             rgba(  25,  16,  46, 0.5);
+    -op5-color-v2d-teal-1:             rgba(  36,  30,  68, 0.5);
+    -op5-color-v2d-teal-2:             rgba(  37,  49,  94, 0.5);
+    -op5-color-v2d-teal-3:             rgba(  58,  92, 133, 0.5);
+    -op5-color-v2d-teal-4:             rgba(  86, 161, 191, 0.5);
+    -op5-color-v2d-teal-5:             rgba( 151, 219, 210, 0.5);
+
+    -op3-color-v2d-dark:               rgba(  21,  10,  31, 0.3);
+    -op3-color-v2d-light:              rgba( 255, 253, 240, 0.3);
+    -op3-color-v2d-red-0:              rgba(  40,  11,  38, 0.3);
+    -op3-color-v2d-red-1:              rgba(  54,  16,  39, 0.3);
+    -op3-color-v2d-red-2:              rgba( 104,  24,  36, 0.3);
+    -op3-color-v2d-red-3:              rgba( 180,  35,  19, 0.3);
+    -op3-color-v2d-red-4:              rgba( 244, 104,  11, 0.3);
+    -op3-color-v2d-red-5:              rgba( 244, 192,  71, 0.3);
+    -op3-color-v2d-green-0:            rgba(  12,  19,  39, 0.3);
+    -op3-color-v2d-green-1:            rgba(   3,  40,  43, 0.3);
+    -op3-color-v2d-green-2:            rgba(   9,  73,  63, 0.3);
+    -op3-color-v2d-green-3:            rgba(  17, 131,  55, 0.3);
+    -op3-color-v2d-green-4:            rgba(  87, 197,  43, 0.3);
+    -op3-color-v2d-green-5:            rgba( 185, 237,  94, 0.3);
+    -op3-color-v2d-purple-0:           rgba(  26,  17,  46, 0.3);
+    -op3-color-v2d-purple-1:           rgba(  41,  25,  69, 0.3);
+    -op3-color-v2d-purple-2:           rgba(  94,  28,  90, 0.3);
+    -op3-color-v2d-purple-3:           rgba( 143,  23, 103, 0.3);
+    -op3-color-v2d-purple-4:           rgba( 244,  93, 146, 0.3);
+    -op3-color-v2d-purple-5:           rgba( 254, 181, 139, 0.3);
+    -op3-color-v2d-blue-0:             rgba(  14,   9,  47, 0.3);
+    -op3-color-v2d-blue-1:             rgba(  27,  24,  83, 0.3);
+    -op3-color-v2d-blue-2:             rgba(  34,  45, 129, 0.3);
+    -op3-color-v2d-blue-3:             rgba(  70,  91, 231, 0.3);
+    -op3-color-v2d-blue-4:             rgba(  42, 192, 242, 0.3);
+    -op3-color-v2d-blue-5:             rgba( 125, 242, 207, 0.3);
+    -op3-color-v2d-brown-0:            rgba(  34,  12,  39, 0.3);
+    -op3-color-v2d-brown-1:            rgba(  47,  19,  22, 0.3);
+    -op3-color-v2d-brown-2:            rgba(  67,  30,  30, 0.3);
+    -op3-color-v2d-brown-3:            rgba( 116,  52,  26, 0.3);
+    -op3-color-v2d-brown-4:            rgba( 175,  93,  35, 0.3);
+    -op3-color-v2d-brown-5:            rgba( 248, 153,  58, 0.3);
+    -op3-color-v2d-teal-0:             rgba(  25,  16,  46, 0.3);
+    -op3-color-v2d-teal-1:             rgba(  36,  30,  68, 0.3);
+    -op3-color-v2d-teal-2:             rgba(  37,  49,  94, 0.3);
+    -op3-color-v2d-teal-3:             rgba(  58,  92, 133, 0.3);
+    -op3-color-v2d-teal-4:             rgba(  86, 161, 191, 0.3);
+    -op3-color-v2d-teal-5:             rgba( 151, 219, 210, 0.3);
+
+    /*
+    **  SWEETIE PALETTE
+    */
+
+    -color-swt-dark:                   rgba(  26,  28,  44, 1.0);
+    -color-swt-purple:                 rgba(  87,  41,  86, 1.0);
+    -color-swt-red:                    rgba( 177,  65,  86, 1.0);
+    -color-swt-orange:                 rgba( 238, 123,  88, 1.0);
+    -color-swt-yellow:                 rgba( 255, 208, 121, 1.0);
+    -color-swt-lime:                   rgba( 160, 240, 114, 1.0);
+    -color-swt-green:                  rgba(  56, 184, 110, 1.0);
+    -color-swt-teal:                   rgba(  39, 110, 123, 1.0);
+    -color-swt-royal:                  rgba(  41,  54, 111, 1.0);
+    -color-swt-blue:                   rgba(  64,  91, 208, 1.0);
+    -color-swt-turquoise:              rgba(  79, 164, 247, 1.0);
+    -color-swt-cyan:                   rgba( 134, 236, 248, 1.0);
+    -color-swt-light:                  rgba( 244, 244, 244, 1.0);
+    -color-swt-light-gray:             rgba( 147, 182, 193, 1.0);
+    -color-swt-gray:                   rgba(  85, 113, 133, 1.0);
+    -color-swt-dark-gray:              rgba(  50,  64,  86, 1.0);
+
+    -op7-color-swt-dark:               rgba(  26,  28,  44, 0.7);
+    -op7-color-swt-purple:             rgba(  87,  41,  86, 0.7);
+    -op7-color-swt-red:                rgba( 177,  65,  86, 0.7);
+    -op7-color-swt-orange:             rgba( 238, 123,  88, 0.7);
+    -op7-color-swt-yellow:             rgba( 255, 208, 121, 0.7);
+    -op7-color-swt-lime:               rgba( 160, 240, 114, 0.7);
+    -op7-color-swt-green:              rgba(  56, 184, 110, 0.7);
+    -op7-color-swt-teal:               rgba(  39, 110, 123, 0.7);
+    -op7-color-swt-royal:              rgba(  41,  54, 111, 0.7);
+    -op7-color-swt-blue:               rgba(  64,  91, 208, 0.7);
+    -op7-color-swt-turquoise:          rgba(  79, 164, 247, 0.7);
+    -op7-color-swt-cyan:               rgba( 134, 236, 248, 0.7);
+    -op7-color-swt-light:              rgba( 244, 244, 244, 0.7);
+    -op7-color-swt-light-gray:         rgba( 147, 182, 193, 0.7);
+    -op7-color-swt-gray:               rgba(  85, 113, 133, 0.7);
+    -op7-color-swt-dark-gray:          rgba(  50,  64,  86, 0.7);
+
+    -op5-color-swt-dark:               rgba(  26,  28,  44, 0.5);
+    -op5-color-swt-purple:             rgba(  87,  41,  86, 0.5);
+    -op5-color-swt-red:                rgba( 177,  65,  86, 0.5);
+    -op5-color-swt-orange:             rgba( 238, 123,  88, 0.5);
+    -op5-color-swt-yellow:             rgba( 255, 208, 121, 0.5);
+    -op5-color-swt-lime:               rgba( 160, 240, 114, 0.5);
+    -op5-color-swt-green:              rgba(  56, 184, 110, 0.5);
+    -op5-color-swt-teal:               rgba(  39, 110, 123, 0.5);
+    -op5-color-swt-royal:              rgba(  41,  54, 111, 0.5);
+    -op5-color-swt-blue:               rgba(  64,  91, 208, 0.5);
+    -op5-color-swt-turquoise:          rgba(  79, 164, 247, 0.5);
+    -op5-color-swt-cyan:               rgba( 134, 236, 248, 0.5);
+    -op5-color-swt-light:              rgba( 244, 244, 244, 0.5);
+    -op5-color-swt-light-gray:         rgba( 147, 182, 193, 0.5);
+    -op5-color-swt-gray:               rgba(  85, 113, 133, 0.5);
+    -op5-color-swt-dark-gray:          rgba(  50,  64,  86, 0.5);
+
+    -op3-color-swt-dark:               rgba(  26,  28,  44, 0.3);
+    -op3-color-swt-purple:             rgba(  87,  41,  86, 0.3);
+    -op3-color-swt-red:                rgba( 177,  65,  86, 0.3);
+    -op3-color-swt-orange:             rgba( 238, 123,  88, 0.3);
+    -op3-color-swt-yellow:             rgba( 255, 208, 121, 0.3);
+    -op3-color-swt-lime:               rgba( 160, 240, 114, 0.3);
+    -op3-color-swt-green:              rgba(  56, 184, 110, 0.3);
+    -op3-color-swt-teal:               rgba(  39, 110, 123, 0.3);
+    -op3-color-swt-royal:              rgba(  41,  54, 111, 0.3);
+    -op3-color-swt-blue:               rgba(  64,  91, 208, 0.3);
+    -op3-color-swt-turquoise:          rgba(  79, 164, 247, 0.3);
+    -op3-color-swt-cyan:               rgba( 134, 236, 248, 0.3);
+    -op3-color-swt-light:              rgba( 244, 244, 244, 0.3);
+    -op3-color-swt-light-gray:         rgba( 147, 182, 193, 0.3);
+    -op3-color-swt-gray:               rgba(  85, 113, 133, 0.3);
+    -op3-color-swt-dark-gray:          rgba(  50,  64,  86, 0.3);
+
+    /*
+    ** ZUGHY PALETTE
+    */
+
+    -color-zgy-brown-0:                rgba(  71,  45,  60, 1.0);
+    -color-zgy-brown-1:                rgba(  94,  54,  67, 1.0);
+    -color-zgy-brown-2:                rgba( 122,  68,  74, 1.0);
+    -color-zgy-brown-3:                rgba( 160,  91,  83, 1.0);
+    -color-zgy-brown-4:                rgba( 191, 121,  88, 1.0);
+    -color-zgy-brown-5:                rgba( 238, 161,  96, 1.0);
+    -color-zgy-brown-6:                rgba( 244, 204, 161, 1.0);
+    -color-zgy-green-3:                rgba( 182, 213,  60, 1.0);
+    -color-zgy-green-2:                rgba( 113, 170,  52, 1.0);
+    -color-zgy-green-1:                rgba(  57, 123,  68, 1.0);
+    -color-zgy-green-0:                rgba(  60,  89,  86, 1.0);
+    -color-zgy-gray-0:                 rgba(  48,  44,  46, 1.0);
+    -color-zgy-gray-1:                 rgba(  90,  83,  83, 1.0);
+    -color-zgy-gray-2:                 rgba( 125, 112, 113, 1.0);
+    -color-zgy-gray-3:                 rgba( 160, 147, 142, 1.0);
+    -color-zgy-gray-4:                 rgba( 207, 198, 184, 1.0);
+    -color-zgy-gray-5:                 rgba( 223, 246, 245, 1.0);
+    -color-zgy-blue-3:                 rgba( 138, 235, 241, 1.0);
+    -color-zgy-blue-2:                 rgba(  40, 204, 223, 1.0);
+    -color-zgy-blue-1:                 rgba(  57, 120, 168, 1.0);
+    -color-zgy-blue-0:                 rgba(  57,  71, 120, 1.0);
+    -color-zgy-purple-0:               rgba(  57,  49,  75, 1.0);
+    -color-zgy-purple-1:               rgba(  79,  84, 107, 1.0);
+    -color-zgy-purple-2:               rgba(  86,  64, 100, 1.0);
+    -color-zgy-purple-3:               rgba( 130, 112, 148, 1.0);
+    -color-zgy-purple-4:               rgba( 142,  71, 140, 1.0);
+    -color-zgy-purple-5:               rgba( 205,  96, 147, 1.0);
+    -color-zgy-purple-6:               rgba( 255, 174, 182, 1.0);
+    -color-zgy-red-3:                  rgba( 244, 180,  27, 1.0);
+    -color-zgy-red-2:                  rgba( 244, 126,  27, 1.0);
+    -color-zgy-red-1:                  rgba( 230,  72,  46, 1.0);
+    -color-zgy-red-0:                  rgba( 169,  59,  59, 1.0);
+
+    -op7-color-zgy-brown-0:            rgba(  71,  45,  60, 0.7);
+    -op7-color-zgy-brown-1:            rgba(  94,  54,  67, 0.7);
+    -op7-color-zgy-brown-2:            rgba( 122,  68,  74, 0.7);
+    -op7-color-zgy-brown-3:            rgba( 160,  91,  83, 0.7);
+    -op7-color-zgy-brown-4:            rgba( 191, 121,  88, 0.7);
+    -op7-color-zgy-brown-5:            rgba( 238, 161,  96, 0.7);
+    -op7-color-zgy-brown-6:            rgba( 244, 204, 161, 0.7);
+    -op7-color-zgy-green-3:            rgba( 182, 213,  60, 0.7);
+    -op7-color-zgy-green-2:            rgba( 113, 170,  52, 0.7);
+    -op7-color-zgy-green-1:            rgba(  57, 123,  68, 0.7);
+    -op7-color-zgy-green-0:            rgba(  60,  89,  86, 0.7);
+    -op7-color-zgy-gray-0:             rgba(  48,  44,  46, 0.7);
+    -op7-color-zgy-gray-1:             rgba(  90,  83,  83, 0.7);
+    -op7-color-zgy-gray-2:             rgba( 125, 112, 113, 0.7);
+    -op7-color-zgy-gray-3:             rgba( 160, 147, 142, 0.7);
+    -op7-color-zgy-gray-4:             rgba( 207, 198, 184, 0.7);
+    -op7-color-zgy-gray-5:             rgba( 223, 246, 245, 0.7);
+    -op7-color-zgy-blue-3:             rgba( 138, 235, 241, 0.7);
+    -op7-color-zgy-blue-2:             rgba(  40, 204, 223, 0.7);
+    -op7-color-zgy-blue-1:             rgba(  57, 120, 168, 0.7);
+    -op7-color-zgy-blue-0:             rgba(  57,  71, 120, 0.7);
+    -op7-color-zgy-purple-0:           rgba(  57,  49,  75, 0.7);
+    -op7-color-zgy-purple-1:           rgba(  79,  84, 107, 0.7);
+    -op7-color-zgy-purple-2:           rgba(  86,  64, 100, 0.7);
+    -op7-color-zgy-purple-3:           rgba( 130, 112, 148, 0.7);
+    -op7-color-zgy-purple-4:           rgba( 142,  71, 140, 0.7);
+    -op7-color-zgy-purple-5:           rgba( 205,  96, 147, 0.7);
+    -op7-color-zgy-purple-6:           rgba( 255, 174, 182, 0.7);
+    -op7-color-zgy-red-3:              rgba( 244, 180,  27, 0.7);
+    -op7-color-zgy-red-2:              rgba( 244, 126,  27, 0.7);
+    -op7-color-zgy-red-1:              rgba( 230,  72,  46, 0.7);
+    -op7-color-zgy-red-0:              rgba( 169,  59,  59, 0.7);
+
+    -op5-color-zgy-brown-0:            rgba(  71,  45,  60, 0.5);
+    -op5-color-zgy-brown-1:            rgba(  94,  54,  67, 0.5);
+    -op5-color-zgy-brown-2:            rgba( 122,  68,  74, 0.5);
+    -op5-color-zgy-brown-3:            rgba( 160,  91,  83, 0.5);
+    -op5-color-zgy-brown-4:            rgba( 191, 121,  88, 0.5);
+    -op5-color-zgy-brown-5:            rgba( 238, 161,  96, 0.5);
+    -op5-color-zgy-brown-6:            rgba( 244, 204, 161, 0.5);
+    -op5-color-zgy-green-3:            rgba( 182, 213,  60, 0.5);
+    -op5-color-zgy-green-2:            rgba( 113, 170,  52, 0.5);
+    -op5-color-zgy-green-1:            rgba(  57, 123,  68, 0.5);
+    -op5-color-zgy-green-0:            rgba(  60,  89,  86, 0.5);
+    -op5-color-zgy-gray-0:             rgba(  48,  44,  46, 0.5);
+    -op5-color-zgy-gray-1:             rgba(  90,  83,  83, 0.5);
+    -op5-color-zgy-gray-2:             rgba( 125, 112, 113, 0.5);
+    -op5-color-zgy-gray-3:             rgba( 160, 147, 142, 0.5);
+    -op5-color-zgy-gray-4:             rgba( 207, 198, 184, 0.5);
+    -op5-color-zgy-gray-5:             rgba( 223, 246, 245, 0.5);
+    -op5-color-zgy-blue-3:             rgba( 138, 235, 241, 0.5);
+    -op5-color-zgy-blue-2:             rgba(  40, 204, 223, 0.5);
+    -op5-color-zgy-blue-1:             rgba(  57, 120, 168, 0.5);
+    -op5-color-zgy-blue-0:             rgba(  57,  71, 120, 0.5);
+    -op5-color-zgy-purple-0:           rgba(  57,  49,  75, 0.5);
+    -op5-color-zgy-purple-1:           rgba(  79,  84, 107, 0.5);
+    -op5-color-zgy-purple-2:           rgba(  86,  64, 100, 0.5);
+    -op5-color-zgy-purple-3:           rgba( 130, 112, 148, 0.5);
+    -op5-color-zgy-purple-4:           rgba( 142,  71, 140, 0.5);
+    -op5-color-zgy-purple-5:           rgba( 205,  96, 147, 0.5);
+    -op5-color-zgy-purple-6:           rgba( 255, 174, 182, 0.5);
+    -op5-color-zgy-red-3:              rgba( 244, 180,  27, 0.5);
+    -op5-color-zgy-red-2:              rgba( 244, 126,  27, 0.5);
+    -op5-color-zgy-red-1:              rgba( 230,  72,  46, 0.5);
+    -op5-color-zgy-red-0:              rgba( 169,  59,  59, 0.5);
+
+    -op3-color-zgy-brown-0:            rgba(  71,  45,  60, 0.3);
+    -op3-color-zgy-brown-1:            rgba(  94,  54,  67, 0.3);
+    -op3-color-zgy-brown-2:            rgba( 122,  68,  74, 0.3);
+    -op3-color-zgy-brown-3:            rgba( 160,  91,  83, 0.3);
+    -op3-color-zgy-brown-4:            rgba( 191, 121,  88, 0.3);
+    -op3-color-zgy-brown-5:            rgba( 238, 161,  96, 0.3);
+    -op3-color-zgy-brown-6:            rgba( 244, 204, 161, 0.3);
+    -op3-color-zgy-green-3:            rgba( 182, 213,  60, 0.3);
+    -op3-color-zgy-green-2:            rgba( 113, 170,  52, 0.3);
+    -op3-color-zgy-green-1:            rgba(  57, 123,  68, 0.3);
+    -op3-color-zgy-green-0:            rgba(  60,  89,  86, 0.3);
+    -op3-color-zgy-gray-0:             rgba(  48,  44,  46, 0.3);
+    -op3-color-zgy-gray-1:             rgba(  90,  83,  83, 0.3);
+    -op3-color-zgy-gray-2:             rgba( 125, 112, 113, 0.3);
+    -op3-color-zgy-gray-3:             rgba( 160, 147, 142, 0.3);
+    -op3-color-zgy-gray-4:             rgba( 207, 198, 184, 0.3);
+    -op3-color-zgy-gray-5:             rgba( 223, 246, 245, 0.3);
+    -op3-color-zgy-blue-3:             rgba( 138, 235, 241, 0.3);
+    -op3-color-zgy-blue-2:             rgba(  40, 204, 223, 0.3);
+    -op3-color-zgy-blue-1:             rgba(  57, 120, 168, 0.3);
+    -op3-color-zgy-blue-0:             rgba(  57,  71, 120, 0.3);
+    -op3-color-zgy-purple-0:           rgba(  57,  49,  75, 0.3);
+    -op3-color-zgy-purple-1:           rgba(  79,  84, 107, 0.3);
+    -op3-color-zgy-purple-2:           rgba(  86,  64, 100, 0.3);
+    -op3-color-zgy-purple-3:           rgba( 130, 112, 148, 0.3);
+    -op3-color-zgy-purple-4:           rgba( 142,  71, 140, 0.3);
+    -op3-color-zgy-purple-5:           rgba( 205,  96, 147, 0.3);
+    -op3-color-zgy-purple-6:           rgba( 255, 174, 182, 0.3);
+    -op3-color-zgy-red-3:              rgba( 244, 180,  27, 0.3);
+    -op3-color-zgy-red-2:              rgba( 244, 126,  27, 0.3);
+    -op3-color-zgy-red-1:              rgba( 230,  72,  46, 0.3);
+    -op3-color-zgy-red-0:              rgba( 169,  59,  59, 0.3);
+
+    /*
+    **  GRAFXKID GRAY PALETTE
+    */
+
+    -color-gfx-gray-0:                 rgba(  43,  43,  38, 1.0);
+    -color-gfx-gray-1:                 rgba( 112, 107, 102, 1.0);
+    -color-gfx-gray-2:                 rgba( 168, 159, 148, 1.0);
+    -color-gfx-gray-3:                 rgba( 224, 219, 205, 1.0);
+
+    -op7-color-gfx-gray-0:             rgba(  43,  43,  38, 0.7);
+    -op7-color-gfx-gray-1:             rgba( 112, 107, 102, 0.7);
+    -op7-color-gfx-gray-2:             rgba( 168, 159, 148, 0.7);
+    -op7-color-gfx-gray-3:             rgba( 224, 219, 205, 0.7);
+
+    -op5-color-gfx-gray-0:             rgba(  43,  43,  38, 0.5);
+    -op5-color-gfx-gray-1:             rgba( 112, 107, 102, 0.5);
+    -op5-color-gfx-gray-2:             rgba( 168, 159, 148, 0.5);
+    -op5-color-gfx-gray-3:             rgba( 224, 219, 205, 0.5);
+
+    -op3-color-gfx-gray-0:             rgba(  43,  43,  38, 0.3);
+    -op3-color-gfx-gray-1:             rgba( 112, 107, 102, 0.3);
+    -op3-color-gfx-gray-2:             rgba( 168, 159, 148, 0.3);
+    -op3-color-gfx-gray-3:             rgba( 224, 219, 205, 0.3);
+
+    /*
+    **  BOOTSTRAP DOCUMENTATION PALETTE
+    */
+
+    -color-bdoc-dark:                  rgba(  52,  58,  64, 1.0);
+    -color-bdoc-dark-hover:            rgba(  35,  39,  43, 1.0);
+    -color-bdoc-light:                 rgba( 248, 249, 250, 1.0);
+    -color-bdoc-light-hover:           rgba( 226, 230, 234, 1.0);
+    -color-bdoc-success:               rgba(  40, 167,  69, 1.0);
+    -color-bdoc-success-hover:         rgba(  33, 136,  56, 1.0);
+    -color-bdoc-danger:                rgba( 220,  53,  69, 1.0);
+    -color-bdoc-danger-hover:          rgba( 200,  35,  51, 1.0);
+    -color-bdoc-primary:               rgba(   0, 123, 255, 1.0);
+    -color-bdoc-primary-hover:         rgba(   0, 105, 217, 1.0);
+    -color-bdoc-secondary:             rgba( 108, 117, 125, 1.0);
+    -color-bdoc-secondary-hover:       rgba(  90,  98, 104, 1.0);
+    -color-bdoc-info:                  rgba(  23, 162, 184, 1.0);
+    -color-bdoc-info-hover:            rgba(  19, 132, 150, 1.0);
+    -color-bdoc-warning:               rgba( 255, 193,   7, 1.0);
+    -color-bdoc-warning-hover:         rgba( 224, 168,   0, 1.0);
+
+    -op7-color-bdoc-dark:              rgba(  52,  58,  64, 0.7);
+    -op7-color-bdoc-dark-hover:        rgba(  35,  39,  43, 0.7);
+    -op7-color-bdoc-light:             rgba( 248, 249, 250, 0.7);
+    -op7-color-bdoc-light-hover:       rgba( 226, 230, 234, 0.7);
+    -op7-color-bdoc-success:           rgba(  40, 167,  69, 0.7);
+    -op7-color-bdoc-success-hover:     rgba(  33, 136,  56, 0.7);
+    -op7-color-bdoc-danger:            rgba( 220,  53,  69, 0.7);
+    -op7-color-bdoc-danger-hover:      rgba( 200,  35,  51, 0.7);
+    -op7-color-bdoc-primary:           rgba(   0, 123, 255, 0.7);
+    -op7-color-bdoc-primary-hover:     rgba(   0, 105, 217, 0.7);
+    -op7-color-bdoc-secondary:         rgba( 108, 117, 125, 0.7);
+    -op7-color-bdoc-secondary-hover:   rgba(  90,  98, 104, 0.7);
+    -op7-color-bdoc-info:              rgba(  23, 162, 184, 0.7);
+    -op7-color-bdoc-info-hover:        rgba(  19, 132, 150, 0.7);
+    -op7-color-bdoc-warning:           rgba( 255, 193,   7, 0.7);
+    -op7-color-bdoc-warning-hover:     rgba( 224, 168,   0, 0.7);
+
+    -op5-color-bdoc-dark:              rgba(  52,  58,  64, 0.5);
+    -op5-color-bdoc-dark-hover:        rgba(  35,  39,  43, 0.5);
+    -op5-color-bdoc-light:             rgba( 248, 249, 250, 0.5);
+    -op5-color-bdoc-light-hover:       rgba( 226, 230, 234, 0.5);
+    -op5-color-bdoc-success:           rgba(  40, 167,  69, 0.5);
+    -op5-color-bdoc-success-hover:     rgba(  33, 136,  56, 0.5);
+    -op5-color-bdoc-danger:            rgba( 220,  53,  69, 0.5);
+    -op5-color-bdoc-danger-hover:      rgba( 200,  35,  51, 0.5);
+    -op5-color-bdoc-primary:           rgba(   0, 123, 255, 0.5);
+    -op5-color-bdoc-primary-hover:     rgba(   0, 105, 217, 0.5);
+    -op5-color-bdoc-secondary:         rgba( 108, 117, 125, 0.5);
+    -op5-color-bdoc-secondary-hover:   rgba(  90,  98, 104, 0.5);
+    -op5-color-bdoc-info:              rgba(  23, 162, 184, 0.5);
+    -op5-color-bdoc-info-hover:        rgba(  19, 132, 150, 0.5);
+    -op5-color-bdoc-warning:           rgba( 255, 193,   7, 0.5);
+    -op5-color-bdoc-warning-hover:     rgba( 224, 168,   0, 0.5);
+
+    -op3-color-bdoc-dark:              rgba(  52,  58,  64, 0.3);
+    -op3-color-bdoc-dark-hover:        rgba(  35,  39,  43, 0.3);
+    -op3-color-bdoc-light:             rgba( 248, 249, 250, 0.3);
+    -op3-color-bdoc-light-hover:       rgba( 226, 230, 234, 0.3);
+    -op3-color-bdoc-success:           rgba(  40, 167,  69, 0.3);
+    -op3-color-bdoc-success-hover:     rgba(  33, 136,  56, 0.3);
+    -op3-color-bdoc-danger:            rgba( 220,  53,  69, 0.3);
+    -op3-color-bdoc-danger-hover:      rgba( 200,  35,  51, 0.3);
+    -op3-color-bdoc-primary:           rgba(   0, 123, 255, 0.3);
+    -op3-color-bdoc-primary-hover:     rgba(   0, 105, 217, 0.3);
+    -op3-color-bdoc-secondary:         rgba( 108, 117, 125, 0.3);
+    -op3-color-bdoc-secondary-hover:   rgba(  90,  98, 104, 0.3);
+    -op3-color-bdoc-info:              rgba(  23, 162, 184, 0.3);
+    -op3-color-bdoc-info-hover:        rgba(  19, 132, 150, 0.3);
+    -op3-color-bdoc-warning:           rgba( 255, 193,   7, 0.3);
+    -op3-color-bdoc-warning-hover:     rgba( 224, 168,   0, 0.3);
+
+    /*
+    **  MDBOOTSTRAP COLORS PALETTE
+    */
+
+    -color-mdb-default:                rgba(  43, 187, 173, 1.0);
+    -color-mdb-default-dark:           rgba(   0, 105,  92, 1.0);
+    -color-mdb-primary:                rgba(  66, 133, 244, 1.0);
+    -color-mdb-primary-dark:           rgba(  13,  71, 161, 1.0);
+    -color-mdb-secondary:              rgba( 170, 102, 204, 1.0);
+    -color-mdb-secondary-dark:         rgba( 153,  51, 204, 1.0);
+    -color-mdb-elegant:                rgba(  46,  46,  46, 1.0);
+    -color-mdb-elegant-dark:           rgba(  33,  33,  33, 1.0);
+    -color-mdb-stylish:                rgba(  75,  81,  93, 1.0);
+    -color-mdb-stylish-dark:           rgba(  62,  69,  81, 1.0);
+    -color-mdb-unique:                 rgba(  63, 114, 155, 1.0);
+    -color-mdb-unique-dark:            rgba(  28,  35,  49, 1.0);
+    -color-mdb-special:                rgba(  55,  71,  79, 1.0);
+    -color-mdb-special-dark:           rgba(  38,  50,  56, 1.0);
+    -color-mdb-blue:                   rgba(   0, 123, 255, 1.0);
+    -color-mdb-indigo:                 rgba( 102,  16, 242, 1.0);
+    -color-mdb-purple:                 rgba( 111,  66, 193, 1.0);
+    -color-mdb-pink:                   rgba( 232,  62, 140, 1.0);
+    -color-mdb-red:                    rgba( 220,  53,  69, 1.0);
+    -color-mdb-orange:                 rgba( 253, 126,  20, 1.0);
+    -color-mdb-yellow:                 rgba( 255, 193,   7, 1.0);
+    -color-mdb-green:                  rgba(  40, 167,  69, 1.0);
+    -color-mdb-teal:                   rgba(  32, 201, 151, 1.0);
+    -color-mdb-cyan:                   rgba(  23, 162, 184, 1.0);
+    -color-mdb-white:                  rgba( 255, 255, 255, 1.0);
+    -color-mdb-gray:                   rgba( 108, 117, 125, 1.0);
+    -color-mdb-gray-dark:              rgba(  52,  58,  64, 1.0);
+
+    -op7-color-mdb-default:            rgba(  43, 187, 173, 0.7);
+    -op7-color-mdb-default-dark:       rgba(   0, 105,  92, 0.7);
+    -op7-color-mdb-primary:            rgba(  66, 133, 244, 0.7);
+    -op7-color-mdb-primary-dark:       rgba(  13,  71, 161, 0.7);
+    -op7-color-mdb-secondary:          rgba( 170, 102, 204, 0.7);
+    -op7-color-mdb-secondary-dark:     rgba( 153,  51, 204, 0.7);
+    -op7-color-mdb-elegant:            rgba(  46,  46,  46, 0.7);
+    -op7-color-mdb-elegant-dark:       rgba(  33,  33,  33, 0.7);
+    -op7-color-mdb-stylish:            rgba(  75,  81,  93, 0.7);
+    -op7-color-mdb-stylish-dark:       rgba(  62,  69,  81, 0.7);
+    -op7-color-mdb-unique:             rgba(  63, 114, 155, 0.7);
+    -op7-color-mdb-unique-dark:        rgba(  28,  35,  49, 0.7);
+    -op7-color-mdb-special:            rgba(  55,  71,  79, 0.7);
+    -op7-color-mdb-special-dark:       rgba(  38,  50,  56, 0.7);
+    -op7-color-mdb-blue:               rgba(   0, 123, 255, 0.7);
+    -op7-color-mdb-indigo:             rgba( 102,  16, 242, 0.7);
+    -op7-color-mdb-purple:             rgba( 111,  66, 193, 0.7);
+    -op7-color-mdb-pink:               rgba( 232,  62, 140, 0.7);
+    -op7-color-mdb-red:                rgba( 220,  53,  69, 0.7);
+    -op7-color-mdb-orange:             rgba( 253, 126,  20, 0.7);
+    -op7-color-mdb-yellow:             rgba( 255, 193,   7, 0.7);
+    -op7-color-mdb-green:              rgba(  40, 167,  69, 0.7);
+    -op7-color-mdb-teal:               rgba(  32, 201, 151, 0.7);
+    -op7-color-mdb-cyan:               rgba(  23, 162, 184, 0.7);
+    -op7-color-mdb-white:              rgba( 255, 255, 255, 0.7);
+    -op7-color-mdb-gray:               rgba( 108, 117, 125, 0.7);
+    -op7-color-mdb-gray-dark:          rgba(  52,  58,  64, 0.7);
+
+    -op5-color-mdb-default:            rgba(  43, 187, 173, 0.5);
+    -op5-color-mdb-default-dark:       rgba(   0, 105,  92, 0.5);
+    -op5-color-mdb-primary:            rgba(  66, 133, 244, 0.5);
+    -op5-color-mdb-primary-dark:       rgba(  13,  71, 161, 0.5);
+    -op5-color-mdb-secondary:          rgba( 170, 102, 204, 0.5);
+    -op5-color-mdb-secondary-dark:     rgba( 153,  51, 204, 0.5);
+    -op5-color-mdb-elegant:            rgba(  46,  46,  46, 0.5);
+    -op5-color-mdb-elegant-dark:       rgba(  33,  33,  33, 0.5);
+    -op5-color-mdb-stylish:            rgba(  75,  81,  93, 0.5);
+    -op5-color-mdb-stylish-dark:       rgba(  62,  69,  81, 0.5);
+    -op5-color-mdb-unique:             rgba(  63, 114, 155, 0.5);
+    -op5-color-mdb-unique-dark:        rgba(  28,  35,  49, 0.5);
+    -op5-color-mdb-special:            rgba(  55,  71,  79, 0.5);
+    -op5-color-mdb-special-dark:       rgba(  38,  50,  56, 0.5);
+    -op5-color-mdb-blue:               rgba(   0, 123, 255, 0.5);
+    -op5-color-mdb-indigo:             rgba( 102,  16, 242, 0.5);
+    -op5-color-mdb-purple:             rgba( 111,  66, 193, 0.5);
+    -op5-color-mdb-pink:               rgba( 232,  62, 140, 0.5);
+    -op5-color-mdb-red:                rgba( 220,  53,  69, 0.5);
+    -op5-color-mdb-orange:             rgba( 253, 126,  20, 0.5);
+    -op5-color-mdb-yellow:             rgba( 255, 193,   7, 0.5);
+    -op5-color-mdb-green:              rgba(  40, 167,  69, 0.5);
+    -op5-color-mdb-teal:               rgba(  32, 201, 151, 0.5);
+    -op5-color-mdb-cyan:               rgba(  23, 162, 184, 0.5);
+    -op5-color-mdb-white:              rgba( 255, 255, 255, 0.5);
+    -op5-color-mdb-gray:               rgba( 108, 117, 125, 0.5);
+    -op5-color-mdb-gray-dark:          rgba(  52,  58,  64, 0.5);
+
+    -op3-color-mdb-default:            rgba(  43, 187, 173, 0.3);
+    -op3-color-mdb-default-dark:       rgba(   0, 105,  92, 0.3);
+    -op3-color-mdb-primary:            rgba(  66, 133, 244, 0.3);
+    -op3-color-mdb-primary-dark:       rgba(  13,  71, 161, 0.3);
+    -op3-color-mdb-secondary:          rgba( 170, 102, 204, 0.3);
+    -op3-color-mdb-secondary-dark:     rgba( 153,  51, 204, 0.3);
+    -op3-color-mdb-elegant:            rgba(  46,  46,  46, 0.3);
+    -op3-color-mdb-elegant-dark:       rgba(  33,  33,  33, 0.3);
+    -op3-color-mdb-stylish:            rgba(  75,  81,  93, 0.3);
+    -op3-color-mdb-stylish-dark:       rgba(  62,  69,  81, 0.3);
+    -op3-color-mdb-unique:             rgba(  63, 114, 155, 0.3);
+    -op3-color-mdb-unique-dark:        rgba(  28,  35,  49, 0.3);
+    -op3-color-mdb-special:            rgba(  55,  71,  79, 0.3);
+    -op3-color-mdb-special-dark:       rgba(  38,  50,  56, 0.3);
+    -op3-color-mdb-blue:               rgba(   0, 123, 255, 0.3);
+    -op3-color-mdb-indigo:             rgba( 102,  16, 242, 0.3);
+    -op3-color-mdb-purple:             rgba( 111,  66, 193, 0.3);
+    -op3-color-mdb-pink:               rgba( 232,  62, 140, 0.3);
+    -op3-color-mdb-red:                rgba( 220,  53,  69, 0.3);
+    -op3-color-mdb-orange:             rgba( 253, 126,  20, 0.3);
+    -op3-color-mdb-yellow:             rgba( 255, 193,   7, 0.3);
+    -op3-color-mdb-green:              rgba(  40, 167,  69, 0.3);
+    -op3-color-mdb-teal:               rgba(  32, 201, 151, 0.3);
+    -op3-color-mdb-cyan:               rgba(  23, 162, 184, 0.3);
+    -op3-color-mdb-white:              rgba( 255, 255, 255, 0.3);
+    -op3-color-mdb-gray:               rgba( 108, 117, 125, 0.3);
+    -op3-color-mdb-gray-dark:          rgba(  52,  58,  64, 0.3);
+
+}

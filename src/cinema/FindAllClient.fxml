@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="360.0" prefWidth="480.0" stylesheets="@../Style.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cinema.FindAllClientController">
+   <children>
+      <Pane layoutX="1.0" layoutY="1.0" prefHeight="360.0" prefWidth="480.0" style="-fx-background-color: white; -fx-border-width: 0.2px; -fx-border-color: black; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 2, 0, 0, 0);">
+         <children>
+            <HBox alignment="CENTER" prefHeight="29.0" prefWidth="480.0" style="-fx-background-color: gray;">
+               <children>
+                  <Label text="Clientes cadastrados" textFill="WHITE" />
+               </children>
+            </HBox>
+            <TableView fx:id="tableViewAllClient" layoutY="29.0" prefHeight="291.0" prefWidth="480.0">
+               <columns>
+                  <TableColumn fx:id="columnFirstName" prefWidth="141.0" text="Primeiro Nome" />
+                  <TableColumn fx:id="columnLastName" prefWidth="127.0" text="Último Nome" />
+                  <TableColumn fx:id="columnPhone" prefWidth="98.0" text="Telefone" />
+                  <TableColumn fx:id="columnCPF" prefWidth="113.0" text="CPF" />
+               </columns>
+            </TableView>
+            <Button layoutX="421.0" layoutY="327.0" mnemonicParsing="false" onAction="#cancel" text="Ok">
+               <styleClass>
+                  <String fx:value="bg-info-op7" />
+                  <String fx:value="rounded-0" />
+               </styleClass>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

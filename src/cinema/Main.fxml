@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="620.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cinema.MainController">
+   <children>
+      <MenuBar prefHeight="40.0" prefWidth="640.0" AnchorPane.bottomAnchor="627.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Arquivo">
+            <items>
+                  <MenuItem fx:id="Room" mnemonicParsing="false" onAction="#menu" text="Sala" />
+              <MenuItem fx:id="generateLog" mnemonicParsing="false" onAction="#menu" text="Gerar registro" />
+                  <MenuItem mnemonicParsing="false" onAction="#close" text="Sair" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Menu cliente">
+            <items>
+              <MenuItem fx:id="newClient" mnemonicParsing="false" onAction="#menu" text="Adicionar " />
+                  <MenuItem fx:id="deleteClient" mnemonicParsing="false" onAction="#menu" text="Deletar" />
+                  <MenuItem fx:id="updateClient" mnemonicParsing="false" onAction="#menu" text="Atualizar" />
+                  <MenuItem fx:id="findClient" mnemonicParsing="false" onAction="#menu" text="Procurar" />
+                  <MenuItem fx:id="findAllClientInRoom" mnemonicParsing="false" onAction="#menu" text="Ver ocupantes" />
+                  <MenuItem fx:id="findAllClient" mnemonicParsing="false" onAction="#menu" text="Ver todos" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Menu poltronas">
+               <items>
+                  <MenuItem fx:id="deletePlace" mnemonicParsing="false" onAction="#menu" text="Desocupar" />
+                  <MenuItem fx:id="findAllPlace" mnemonicParsing="false" onAction="#menu" text="Ver ocupadas" />
+               </items>
+            </Menu>
+        </menus>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <padding>
+            <Insets top="5.0" />
+         </padding>
+      </MenuBar>
+      <Pane fx:id="centerPane" layoutX="-1.0" layoutY="47.0" prefHeight="620.0" prefWidth="640.0" />
+      <Pane fx:id="paneMedium" layoutX="82.0" layoutY="100.0" prefHeight="360.0" prefWidth="480.0" />
+      <Pane fx:id="paneLow" layoutX="82.0" layoutY="100.0" prefHeight="210.0" prefWidth="480.0" />
+      <Pane fx:id="blockMenu" prefHeight="40.0" prefWidth="640.0" />
+   </children>
+</AnchorPane>

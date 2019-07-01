@@ -1,0 +1,1117 @@
+@import "colors.css";
+
+/*
+    Standard Button Classes
+*/
+
+.btn{
+    -fx-padding: 9px 14px;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-border-width: 0.5px;
+    -fx-border-color: -transparent;
+    -fx-font-size: 18px;
+    -fx-font-family: "Sansation" "Noto Sans" "Ubuntu" sans-serif;
+    -fx-cursor: hand;
+}
+.btn:hover{
+    -fx-border-color: -op3-black;
+}
+
+
+
+/*
+    Button Size Classes
+*/
+
+.btn-lg{
+    -fx-padding: 16px 21px;
+    -fx-cursor: hand;
+}
+.btn-lg:hover{
+    -fx-padding: 16px 21px;
+}
+
+.btn-sm{
+    -fx-padding: 2px 6px;
+    -fx-cursor: hand;
+}
+.btn-sm:hover{
+    -fx-padding: 2px 6px;
+}
+
+
+/*
+    Button Types Classes
+*/
+
+.btn-primary{
+    -fx-background-color: -color-bdoc-primary;
+    -fx-text-fill: -text-white;
+}
+.btn-primary:hover{
+    -fx-background-color: -color-bdoc-primary-hover;
+}
+
+.btn-secondary{
+    -fx-background-color: -color-bdoc-secondary;
+    -fx-text-fill: -text-white;
+}
+.btn-secondary:hover{
+    -fx-background-color: -color-bdoc-secondary-hover;
+}
+
+.btn-success{
+    -fx-background-color: -color-bdoc-success;
+    -fx-text-fill: -text-white;
+}
+.btn-success:hover{
+    -fx-background-color: -color-bdoc-success-hover;
+}
+
+.btn-danger{
+    -fx-background-color: -color-bdoc-danger;
+    -fx-text-fill: -text-white;
+}
+.btn-danger:hover{
+    -fx-background-color: -color-bdoc-danger-hover;
+}
+
+.btn-warning{
+    -fx-background-color: -color-bdoc-warning;
+    -fx-text-fill: -text-black;
+}
+.btn-warning:hover{
+    -fx-background-color: -color-bdoc-warning-hover;
+}
+
+.btn-info{
+    -fx-background-color: -color-bdoc-info;
+    -fx-text-fill: -text-white;
+}
+.btn-info:hover{
+    -fx-background-color: -color-bdoc-info-hover;
+}
+
+.btn-light{
+    -fx-background-color: -color-bdoc-light;
+    -fx-text-fill: -text-black;
+}
+.btn-light:hover{
+    -fx-background-color: -color-bdoc-light-hover;
+}
+
+.btn-dark{
+    -fx-background-color: -color-bdoc-dark;
+    -fx-text-fill: -text-white;
+}
+.btn-dark:hover{
+    -fx-background-color: -color-bdoc-dark-hover;
+}
+
+
+
+/*
+    Outlined Button Classes
+*/
+
+.btn-outline-primary{
+    -fx-background-color: -transparent;
+    -fx-border-color: -color-bdoc-primary;
+    -fx-text-fill: -color-bdoc-primary;
+}
+.btn-outline-primary:hover{
+    -fx-background-color: -color-bdoc-primary;
+    -fx-text-fill: -text-white;
+}
+
+.btn-outline-secondary{
+    -fx-background-color: -transparent;
+    -fx-border-color: -color-bdoc-secondary;
+    -fx-text-fill: -color-bdoc-secondary;
+}
+.btn-outline-secondary:hover{
+    -fx-background-color: -color-bdoc-secondary;
+    -fx-text-fill: -text-white;
+}
+
+.btn-outline-success{
+    -fx-background-color: -transparent;
+    -fx-border-color: -color-bdoc-success;
+    -fx-text-fill: -color-bdoc-success;
+}
+.btn-outline-success:hover{
+    -fx-background-color: -color-bdoc-success;
+    -fx-text-fill: -text-white;
+}
+
+.btn-outline-danger{
+    -fx-background-color: -transparent;
+    -fx-border-color: -color-bdoc-danger;
+    -fx-text-fill: -color-bdoc-danger;
+}
+.btn-outline-danger:hover{
+    -fx-background-color: -color-bdoc-danger;
+    -fx-text-fill: -text-white;
+}
+
+.btn-outline-warning{
+    -fx-background-color: -transparent;
+    -fx-border-color: -color-bdoc-warning;
+    -fx-text-fill: -color-bdoc-warning;
+}
+.btn-outline-warning:hover{
+    -fx-background-color: -color-bdoc-warning;
+    -fx-text-fill: -text-black;
+}
+
+.btn-outline-info{
+    -fx-background-color: -transparent;
+    -fx-border-color: -color-bdoc-info;
+    -fx-text-fill: -color-bdoc-info;
+}
+.btn-outline-info:hover{
+    -fx-background-color: -color-bdoc-info;
+    -fx-text-fill: -text-white;
+}
+
+.btn-outline-light{
+    -fx-background-color: -transparent;
+    -fx-border-color: -color-bdoc-light;
+    -fx-text-fill: -color-bdoc-light;
+}
+.btn-outline-light:hover{
+    -fx-background-color: -color-bdoc-light;
+    -fx-text-fill: -text-black;
+}
+
+.btn-outline-dark{
+    -fx-background-color: -transparent;
+    -fx-border-color: -color-bdoc-dark;
+    -fx-text-fill: -color-bdoc-dark;
+}
+.btn-outline-dark:hover{
+    -fx-background-color: -color-bdoc-dark;
+    -fx-text-fill: -text-white;
+}
+
+
+
+/*
+    Background Classes
+*/
+
+.bg-primary{
+    -fx-background-color: -color-bdoc-primary;
+}
+
+.bg-secondary{
+    -fx-background-color: -color-bdoc-secondary;
+}
+
+.bg-success{
+    -fx-background-color: -color-bdoc-success;
+}
+
+.bg-danger{
+    -fx-background-color: -color-bdoc-danger;
+}
+
+.bg-warning{
+    -fx-background-color: -color-bdoc-warning;
+}
+
+.bg-info{
+    -fx-background-color: -color-bdoc-info;
+}
+
+.bg-light{
+    -fx-background-color: -color-bdoc-light;
+}
+
+.bg-dark{
+    -fx-background-color: -color-bdoc-dark;
+}
+
+
+
+/*
+    Background Transparency Classes
+*/
+
+.bg-primary-op7{
+    -fx-background-color: -op7-color-bdoc-primary;
+}
+
+.bg-secondary-op7{
+    -fx-background-color: -op7-color-bdoc-secondary;
+}
+
+.bg-success-op7{
+    -fx-background-color: -op7-color-bdoc-success;
+}
+
+.bg-danger-op7{
+    -fx-background-color: -op7-color-bdoc-danger;
+}
+
+.bg-warning-op7{
+    -fx-background-color: -op7-color-bdoc-warning;
+}
+
+.bg-info-op7{
+    -fx-background-color: -op7-color-bdoc-info;
+}
+
+.bg-light-op7{
+    -fx-background-color: -op7-color-bdoc-light;
+}
+
+.bg-dark-op7{
+    -fx-background-color: -op7-color-bdoc-dark;
+}
+
+.bg-primary-op5{
+    -fx-background-color: -op5-color-bdoc-primary;
+}
+
+.bg-secondary-op5{
+    -fx-background-color: -op5-color-bdoc-secondary;
+}
+
+.bg-success-op5{
+    -fx-background-color: -op5-color-bdoc-success;
+}
+
+.bg-danger-op5{
+    -fx-background-color: -op5-color-bdoc-danger;
+}
+
+.bg-warning-op5{
+    -fx-background-color: -op5-color-bdoc-warning;
+}
+
+.bg-info-op5{
+    -fx-background-color: -op5-color-bdoc-info;
+}
+
+.bg-light-op5{
+    -fx-background-color: -op5-color-bdoc-light;
+}
+
+.bg-dark-op5{
+    -fx-background-color: -op5-color-bdoc-dark;
+}
+
+.bg-primary-op3{
+    -fx-background-color: -op3-color-bdoc-primary;
+}
+
+.bg-secondary-op3{
+    -fx-background-color: -op3-color-bdoc-secondary;
+}
+
+.bg-success-op3{
+    -fx-background-color: -op3-color-bdoc-success;
+}
+
+.bg-danger-op3{
+    -fx-background-color: -op3-color-bdoc-danger;
+}
+
+.bg-warning-op3{
+    -fx-background-color: -op3-color-bdoc-warning;
+}
+
+.bg-info-op3{
+    -fx-background-color: -op3-color-bdoc-info;
+}
+
+.bg-light-op3{
+    -fx-background-color: -op3-color-bdoc-light;
+}
+
+.bg-dark-op3{
+    -fx-background-color: -op3-color-bdoc-dark;
+}
+
+
+
+/*
+    Background Gradient Classes
+*/
+
+.bg-gradient-primary{
+    -fx-border-color: -color-bdoc-primary-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -color-bdoc-primary,
+        -color-bdoc-primary-hover
+        );
+}
+
+.bg-gradient-primary-op7{
+    -fx-border-color: -color-bdoc-primary-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op7-color-bdoc-primary,
+        -op7-color-bdoc-primary-hover
+        );
+}
+
+.bg-gradient-primary-op5{
+    -fx-border-color: -color-bdoc-primary-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op5-color-bdoc-primary,
+        -op5-color-bdoc-primary-hover
+        );
+}
+
+.bg-gradient-primary-op3{
+    -fx-border-color: -color-bdoc-primary-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op3-color-bdoc-primary,
+        -op3-color-bdoc-primary-hover
+        );
+}
+
+.bg-gradient-secondary{
+    -fx-border-color: -color-bdoc-secondary-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -color-bdoc-secondary,
+        -color-bdoc-secondary-hover
+        );
+}
+
+.bg-gradient-secondary-op7{
+    -fx-border-color: -color-bdoc-secondary-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op7-color-bdoc-secondary,
+        -op7-color-bdoc-secondary-hover
+        );
+}
+
+.bg-gradient-secondary-op5{
+    -fx-border-color: -color-bdoc-secondary-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op5-color-bdoc-secondary,
+        -op5-color-bdoc-secondary-hover
+        );
+}
+
+.bg-gradient-secondary-op3{
+    -fx-border-color: -color-bdoc-secondary-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op3-color-bdoc-secondary,
+        -op3-color-bdoc-secondary-hover
+        );
+}
+
+.bg-gradient-success{
+    -fx-border-color: -color-bdoc-success-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -color-bdoc-success,
+        -color-bdoc-success-hover
+        );
+}
+
+.bg-gradient-success-op7{
+    -fx-border-color: -color-bdoc-success-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op7-color-bdoc-success,
+        -op7-color-bdoc-success-hover
+        );
+}
+
+.bg-gradient-success-op5{
+    -fx-border-color: -color-bdoc-success-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op5-color-bdoc-success,
+        -op5-color-bdoc-success-hover
+        );
+}
+
+.bg-gradient-success-op3{
+    -fx-border-color: -color-bdoc-success-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op3-color-bdoc-success,
+        -op3-color-bdoc-success-hover
+        );
+}
+
+.bg-gradient-danger{
+    -fx-border-color: -color-bdoc-danger-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -color-bdoc-danger,
+        -color-bdoc-danger-hover
+        );
+}
+
+.bg-gradient-danger-op7{
+    -fx-border-color: -color-bdoc-danger-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op7-color-bdoc-danger,
+        -op7-color-bdoc-danger-hover
+        );
+}
+
+.bg-gradient-danger-op5{
+    -fx-border-color: -color-bdoc-danger-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op5-color-bdoc-danger,
+        -op5-color-bdoc-danger-hover
+        );
+}
+
+.bg-gradient-danger-op3{
+    -fx-border-color: -color-bdoc-danger-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op3-color-bdoc-danger,
+        -op3-color-bdoc-danger-hover
+        );
+}
+
+.bg-gradient-warning{
+    -fx-border-color: -color-bdoc-warning-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -color-bdoc-warning,
+        -color-bdoc-warning-hover
+        );
+}
+
+.bg-gradient-warning-op7{
+    -fx-border-color: -color-bdoc-warning-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op7-color-bdoc-warning,
+        -op7-color-bdoc-warning-hover
+        );
+}
+
+.bg-gradient-warning-op5{
+    -fx-border-color: -color-bdoc-warning-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op5-color-bdoc-warning,
+        -op5-color-bdoc-warning-hover
+        );
+}
+
+.bg-gradient-warning-op3{
+    -fx-border-color: -color-bdoc-warning-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op3-color-bdoc-warning,
+        -op3-color-bdoc-warning-hover
+        );
+}
+
+.bg-gradient-info{
+    -fx-border-color: -color-bdoc-info-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -color-bdoc-info,
+        -color-bdoc-info-hover
+        );
+}
+
+.bg-gradient-info-op7{
+    -fx-border-color: -color-bdoc-info-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op7-color-bdoc-info,
+        -op7-color-bdoc-info-hover
+        );
+}
+
+.bg-gradient-info-op5{
+    -fx-border-color: -color-bdoc-info-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op5-color-bdoc-info,
+        -op5-color-bdoc-info-hover
+        );
+}
+
+.bg-gradient-info-op3{
+    -fx-border-color: -color-bdoc-info-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op3-color-bdoc-info,
+        -op3-color-bdoc-info-hover
+        );
+}
+
+.bg-gradient-light{
+    -fx-border-color: -color-bdoc-light-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -color-bdoc-light,
+        -color-bdoc-light-hover
+        );
+}
+
+.bg-gradient-light-op7{
+    -fx-border-color: -color-bdoc-light-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op7-color-bdoc-light,
+        -op7-color-bdoc-light-hover
+        );
+}
+
+.bg-gradient-light-op5{
+    -fx-border-color: -color-bdoc-light-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op5-color-bdoc-light,
+        -op5-color-bdoc-light-hover
+        );
+}
+
+.bg-gradient-light-op3{
+    -fx-border-color: -color-bdoc-light-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op3-color-bdoc-light,
+        -op3-color-bdoc-light-hover
+        );
+}
+
+.bg-gradient-dark{
+    -fx-border-color: -color-bdoc-dark-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -color-bdoc-dark,
+        -color-bdoc-dark-hover
+        );
+}
+
+.bg-gradient-dark-op7{
+    -fx-border-color: -color-bdoc-dark-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op7-color-bdoc-dark,
+        -op7-color-bdoc-dark-hover
+        );
+}
+
+.bg-gradient-dark-op5{
+    -fx-border-color: -color-bdoc-dark-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op5-color-bdoc-dark,
+        -op5-color-bdoc-dark-hover
+        );
+}
+
+.bg-gradient-dark-op3{
+    -fx-border-color: -color-bdoc-dark-hover;
+    -fx-border-width: 0.25;
+    -fx-background-color: linear-gradient(from 100% 0% to 0% 100%,
+        -op3-color-bdoc-dark,
+        -op3-color-bdoc-dark-hover
+        );
+}
+
+
+
+/*
+    Text Color Classes
+*/
+
+.text-white, .text-white > .label{
+    -fx-text-fill: -text-white;
+    -fx-prompt-text-fill: -text-white;
+}
+
+.text-black, .text-black > .label{
+    -fx-text-fill: -text-black;
+    -fx-prompt-text-fill: -text-black;
+}
+
+.text-white-hover:hover, .text-white-hover:hover > .label{
+    -fx-text-fill: -text-white;
+    -fx-prompt-text-fill: -text-white;
+}
+
+.text-black-hover:hover, .text-black-hover:hover > .label{
+    -fx-text-fill: -text-black;
+    -fx-prompt-text-fill: -text-black;
+}
+
+
+
+/*
+    Text Style Classes
+*/
+
+.h1, .h2, .h3, .h4, .h5, .h6, .p, .span{
+    -fx-wrap-text: true;
+    -fx-font-family: "Sansation" "Noto Sans" "Ubuntu" sans-serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6{
+    -fx-font-weight: bold;
+}
+
+.justify{
+    -fx-text-alignment: justify;
+}
+
+
+
+/*
+    Text Size Classes
+*/
+
+.h1{
+    -fx-font-size: 40px;
+}
+
+.h2{
+    -fx-font-size: 36px;
+}
+
+.h3{
+    -fx-font-size: 32px;
+}
+
+.h4{
+    -fx-font-size: 28px;
+}
+
+.h5{
+    -fx-font-size: 24px;
+}
+
+.h6{
+    -fx-font-size: 20px;
+}
+
+.p{
+    -fx-font-size: 16px;
+}
+
+.span{
+    -fx-font-size: 14px;
+}
+
+
+
+/*
+    Border Additive Classes
+*/
+
+.border{
+    -fx-background-color: #00000004;
+    -fx-border-color: -op3-black;
+    -fx-border-width: 0.5;
+}
+
+.border-top{
+    -fx-background-color: #00000004;
+    -fx-border-color: -op3-black -transparent -transparent -transparent;
+    -fx-border-width: 0.5;
+}
+
+.border-right{
+    -fx-background-color: #00000004;
+    -fx-border-color: -transparent -op3-black -transparent -transparent;
+    -fx-border-width: 0.5;
+}
+
+.border-bottom{
+    -fx-background-color: #00000004;
+    -fx-border-color: -transparent -transparent -op3-black -transparent;
+    -fx-border-width: 0.5;
+}
+
+.border-left{
+    -fx-background-color: #00000004;
+    -fx-border-color: -transparent -transparent -transparent -op3-black;
+    -fx-border-width: 0.5;
+}
+
+
+
+/*
+    Border Subtractive Classes
+*/
+
+.border-0{
+    -fx-border-width: 0px;
+    -fx-background-color: #00000004;
+}
+
+.border-top-0{
+    -fx-border-width: 0px;
+    -fx-background-color: #00000004;
+    -fx-border-color: -transparent -op3-black -op3-black -op3-black;
+    -fx-border-width: 0.5;
+}
+
+.border-right-0{
+    -fx-border-width: 0px;
+    -fx-background-color: #00000004;
+    -fx-border-color:  -op3-black -transparent -op3-black -op3-black;
+    -fx-border-width: 0.5;
+}
+
+.border-bottom-0{
+    -fx-border-width: 0px;
+    -fx-background-color: #00000004;
+    -fx-border-color:  -op3-black -op3-black -transparent -op3-black;
+    -fx-border-width: 0.5;
+}
+
+.border-left-0{
+    -fx-border-width: 0px;
+    -fx-background-color: #00000004;
+    -fx-border-color:  -op3-black -op3-black -op3-black -transparent;
+    -fx-border-width: 0.5;
+}
+
+
+
+/*
+    Border Color Classes
+*/
+
+.border-primary{
+    -fx-border-width: 1;
+    -fx-border-color: -color-bdoc-primary;
+}
+
+.border-secondary{
+    -fx-border-width: 1;
+    -fx-border-color: -color-bdoc-secondary;
+}
+
+.border-success{
+    -fx-border-width: 1;
+    -fx-border-color: -color-bdoc-success;
+}
+
+.border-danger{
+    -fx-border-width: 1;
+    -fx-border-color: -color-bdoc-danger;
+}
+
+.border-info{
+    -fx-border-width: 1;
+    -fx-border-color: -color-bdoc-info;
+}
+
+.border-warning{
+    -fx-border-width: 1;
+    -fx-border-color: -color-bdoc-warning;
+}
+
+.border-dark{
+    -fx-border-width: 1;
+    -fx-border-color: -color-bdoc-dark;
+}
+
+.border-light{
+    -fx-border-width: 1;
+    -fx-border-color: -color-bdoc-light;
+}
+
+
+
+/*
+    Border Round Classes
+*/
+
+.rounded-32{
+    -fx-background-radius: 32;
+    -fx-border-radius: 32;
+}
+
+.rounded{
+    -fx-background-radius: 16;
+    -fx-border-radius: 16;
+}
+
+.rounded-8{
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+}
+
+.rounded-4{
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+}
+
+.rounded-top-32{
+    -fx-background-radius: 32 32 0 0;
+    -fx-border-radius: 32 32 0 0;
+}
+
+.rounded-top{
+    -fx-background-radius: 16 16 0 0;
+    -fx-border-radius: 16 16 0 0;
+}
+
+.rounded-top-8{
+    -fx-background-radius: 8 8 0 0;
+    -fx-border-radius: 8 8 0 0;
+}
+
+.rounded-top-4{
+    -fx-background-radius: 4 4 0 0;
+    -fx-border-radius: 4 4 0 0;
+}
+
+.rounded-right-32{
+    -fx-background-radius: 0 32 32 0;
+    -fx-border-radius: 0 32 32 0;
+}
+
+.rounded-right{
+    -fx-background-radius: 0 16 16 0;
+    -fx-border-radius: 0 16 16 0;
+}
+
+.rounded-right-8{
+    -fx-background-radius: 0 8 8 0;
+    -fx-border-radius: 0 8 8 0;
+}
+
+.rounded-right-4{
+    -fx-background-radius: 0 4 4 0;
+    -fx-border-radius: 0 4 4 0;
+}
+
+.rounded-bottom-32{
+    -fx-background-radius: 0 0 32 32;
+    -fx-border-radius: 0 0 32 32;
+}
+
+.rounded-bottom{
+    -fx-background-radius: 0 0 16 16;
+    -fx-border-radius: 0 0 16 16;
+}
+
+.rounded-bottom-8{
+    -fx-background-radius: 0 0 8 8;
+    -fx-border-radius: 0 0 8 8;
+}
+
+.rounded-bottom-4{
+    -fx-background-radius: 0 0 4 4;
+    -fx-border-radius: 0 0 4 4;
+}
+
+.rounded-left-32{
+    -fx-background-radius: 32 0 0 32;
+    -fx-border-radius: 32 0 0 32;
+}
+
+.rounded-left{
+    -fx-background-radius: 16 0 0 16;
+    -fx-border-radius: 16 0 0 16;
+}
+
+.rounded-left-8{
+    -fx-background-radius: 8 0 0 8;
+    -fx-border-radius: 8 0 0 8;
+}
+
+.rounded-left-4{
+    -fx-background-radius: 4 0 0 4;
+    -fx-border-radius: 4 0 0 4;
+}
+
+.rounded-circle{
+    -fx-background-radius: 360;
+    -fx-border-radius: 360;
+}
+
+.rounded-0{
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+}
+
+
+
+/*
+    Input Fields Classes
+*/
+
+.form{
+    -fx-padding: 16;
+    -fx-spacing: 32;
+    -fx-hgap: 32;
+    -fx-vgap: 32;
+}
+
+
+.inpt-field{
+    -fx-background-color: linear-gradient(-transparent 10%, rgba(0, 0, 0, 0.05) 20%);
+    -fx-border-radius: 0px;
+    -fx-border-color: linear-gradient(-transparent 0%, -op3-black 100%);
+    -fx-border-width: 0.25;
+    -fx-padding: 8px 10px;
+    -fx-background-insets: 16px 8px 0px 16px;
+    -fx-border-insets: 16px 8px 0px 16px;
+    -jfx-label-float: true;
+    -jfx-focus-color: -color-bdoc-primary;
+    -jfx-unfocus-color: -color-bdoc-primary;
+}
+.inpt-field *{
+    -fx-text-fill: -text-white;
+    -fx-background-color: -transparent;
+}
+.inpt-field:hover{
+    -fx-background-color: linear-gradient(-transparent 10%, rgba(0, 0, 0, 0.05) 20%, rgba(0, 0, 0, 0.1) 100%);
+}
+.inpt-field:focused{
+    -fx-background-color: linear-gradient(-transparent 10%, rgba(0, 0, 0, 0.1) 20%, rgba(0, 0, 0, 0.15) 100%);
+}
+
+.inpt-lg{
+    -fx-padding: 18px 20px;
+    -fx-background-insets: 32px 16px 0px 32px;
+    -fx-border-insets: 32px 16px 0px 32px;
+}
+
+.inpt-sm{
+    -fx-padding: 2px 4px;
+    -fx-background-insets: 2px 2px 2px 3px;
+    -fx-border-insets: 2px 3px 2px 3px;
+}
+
+
+
+/*
+    Input Color Classes
+*/
+
+.inpt-primary{
+    -fx-border-width: 1;
+    -fx-background-color: linear-gradient(-op3-color-bdoc-primary 0%, -op3-color-bdoc-primary-hover 100%);
+    -fx-border-color: linear-gradient(-op7-color-bdoc-primary-hover 0%, -op7-color-bdoc-primary 100%);
+}
+
+.inpt-primary:hover{
+    -fx-background-color: linear-gradient(-op3-color-bdoc-primary 0%, -op5-color-bdoc-primary-hover 100%);
+}
+
+.inpt-primary:focused{
+    -fx-background-color: linear-gradient(-op5-color-bdoc-primary 0%, -op5-color-bdoc-primary-hover 100%);
+}
+
+.inpt-secondary{
+    -fx-border-width: 1;
+    -fx-background-color: linear-gradient(-op3-color-bdoc-secondary 0%, -op3-color-bdoc-secondary-hover 100%);
+    -fx-border-color: linear-gradient(-op7-color-bdoc-secondary-hover 0%, -op7-color-bdoc-secondary 100%);
+}
+
+.inpt-secondary:hover{
+    -fx-background-color: linear-gradient(-op3-color-bdoc-secondary 0%, -op5-color-bdoc-secondary-hover 100%);
+}
+
+.inpt-secondary:focused{
+    -fx-background-color: linear-gradient(-op5-color-bdoc-secondary 0%, -op5-color-bdoc-secondary-hover 100%);
+}
+
+.inpt-success{
+    -fx-border-width: 1;
+    -fx-background-color: linear-gradient(-op3-color-bdoc-success 0%, -op3-color-bdoc-success-hover 100%);
+    -fx-border-color: linear-gradient(-op7-color-bdoc-success-hover 0%, -op7-color-bdoc-success 100%);
+}
+
+.inpt-success:hover{
+    -fx-background-color: linear-gradient(-op3-color-bdoc-success 0%, -op5-color-bdoc-success-hover 100%);
+}
+
+.inpt-success:focused{
+    -fx-background-color: linear-gradient(-op5-color-bdoc-success 0%, -op5-color-bdoc-success-hover 100%);
+}
+
+.inpt-danger{
+    -fx-border-width: 1;
+    -fx-background-color: linear-gradient(-op3-color-bdoc-danger 0%, -op3-color-bdoc-danger-hover 100%);
+    -fx-border-color: linear-gradient(-op7-color-bdoc-danger-hover 0%, -op7-color-bdoc-danger 100%);
+}
+
+.inpt-danger:hover{
+    -fx-background-color: linear-gradient(-op3-color-bdoc-danger 0%, -op5-color-bdoc-danger-hover 100%);
+}
+
+.inpt-danger:focused{
+    -fx-background-color: linear-gradient(-op5-color-bdoc-danger 0%, -op5-color-bdoc-danger-hover 100%);
+}
+
+.inpt-warning{
+    -fx-border-width: 1;
+    -fx-background-color: linear-gradient(-op3-color-bdoc-warning 0%, -op3-color-bdoc-warning-hover 100%);
+    -fx-border-color: linear-gradient(-op7-color-bdoc-warning-hover 0%, -op7-color-bdoc-warning 100%);
+}
+
+.inpt-warning:hover{
+    -fx-background-color: linear-gradient(-op3-color-bdoc-warning 0%, -op5-color-bdoc-warning-hover 100%);
+}
+
+.inpt-warning:focused{
+    -fx-background-color: linear-gradient(-op5-color-bdoc-warning 0%, -op5-color-bdoc-warning-hover 100%);
+}
+
+.inpt-info{
+    -fx-border-width: 1;
+    -fx-background-color: linear-gradient(-op3-color-bdoc-info 0%, -op3-color-bdoc-info-hover 100%);
+    -fx-border-color: linear-gradient(-op7-color-bdoc-info-hover 0%, -op7-color-bdoc-info 100%);
+}
+
+.inpt-info:hover{
+    -fx-background-color: linear-gradient(-op3-color-bdoc-info 0%, -op5-color-bdoc-info-hover 100%);
+}
+
+.inpt-info:focused{
+    -fx-background-color: linear-gradient(-op5-color-bdoc-info 0%, -op5-color-bdoc-info-hover 100%);
+}
+
+.inpt-light{
+    -fx-border-width: 1;
+    -fx-background-color: linear-gradient(-op3-color-bdoc-light 0%, -op3-color-bdoc-light-hover 100%);
+    -fx-border-color: linear-gradient(-op7-color-bdoc-light-hover 0%, -op7-color-bdoc-light 100%);
+}
+
+.inpt-light:hover{
+    -fx-background-color: linear-gradient(-op3-color-bdoc-light 0%, -op5-color-bdoc-light-hover 100%);
+}
+
+.inpt-light:focused{
+    -fx-background-color: linear-gradient(-op5-color-bdoc-light 0%, -op5-color-bdoc-light-hover 100%);
+}
+
+.inpt-dark{
+    -fx-border-width: 1;
+    -fx-background-color: linear-gradient(-op3-color-bdoc-dark 0%, -op3-color-bdoc-dark-hover 100%);
+    -fx-border-color: linear-gradient(-op7-color-bdoc-dark-hover 0%, -op7-color-bdoc-dark 100%);
+}
+
+.inpt-dark:hover{
+    -fx-background-color: linear-gradient(-op3-color-bdoc-dark 0%, -op5-color-bdoc-dark-hover 100%);
+}
+
+.inpt-dark:focused{
+    -fx-background-color: linear-gradient(-op5-color-bdoc-dark 0%, -op5-color-bdoc-dark-hover 100%);
+}
