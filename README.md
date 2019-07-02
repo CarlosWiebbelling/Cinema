@@ -16,21 +16,25 @@ Go on /NetBeansProjects/Cinema/dist open a terminal window and run:
     User: SA Password:
     Run the project;
 
-## Arquivo menu > Sala: Shows the cinema;
-    Arquivo menu > Gerar Registro: Create a PDF with the seats in use;
-    Arquivo menu > Sair: Close the application;
+## Arquivo menu
+   Arquivo menu > Sala: Shows the cinema;
+   Arquivo menu > Gerar Registro: Create a PDF with the seats in use;
+   Arquivo menu > Sair: Close the application;
 
-## Menu cliente > Adicionar: Insert a new user;
+##  Menu cliente
+    Menu cliente > Adicionar: Insert a new user;
     Menu cliente > Deletar: Deletes a user;
     Menu cliente > Atualizar: Updates a user;
     Menu cliente > Procurar: Find a user by CPF;
     Menu cliente > Ver ocupantes: Shows the seats in use;
     Menu cliente > Ver todos: Shows all clients and their information;
 
-## Menu poltronas > Desocupar: Unoccupy the seat;
+## Menu poltronas
+    Menu poltronas > Desocupar: Unoccupy the seat;
     Menu poltronas > Ver ocupadas: Shows all seats in use;
 
-## How to use: Create a new user;
+## How to use: 
+    Create a new user;
     Click on the seat you want to occupy;
     Confirm and tip your CPF;
 
