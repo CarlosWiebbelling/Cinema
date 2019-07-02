@@ -1,12 +1,12 @@
-Cinema
+# Cinema
 *Make sure you have HSQLDB installed
 
 A project of a cinema in Java, using JavaFX for interface, HSQLDB, iText
 
 Go on /NetBeansProjects/Cinema/dist open a terminal window and run:
-    Run the server: 
+   ## Run the server: 
         java -classpath lib/hsqldb.jar org.hsqldb.server.Server &
-    Run the GUI manager: 
+   ## Run the GUI manager: 
         java -jar lib/hsqldb.jar &
 
 Enter the following information: 
