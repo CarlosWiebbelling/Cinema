@@ -17,9 +17,9 @@ Go on /NetBeansProjects/Cinema/dist open a terminal window and run:
     Run the project;
 
 ## Arquivo menu
-   Arquivo menu > Sala: Shows the cinema;
-   Arquivo menu > Gerar Registro: Create a PDF with the seats in use;
-   Arquivo menu > Sair: Close the application;
+    Arquivo menu > Sala: Shows the cinema;
+    Arquivo menu > Gerar Registro: Create a PDF with the seats in use;
+    Arquivo menu > Sair: Close the application;
 
 ##  Menu cliente
     Menu cliente > Adicionar: Insert a new user;
